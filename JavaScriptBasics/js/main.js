@@ -1,11 +1,17 @@
 'use strict';
 
-const score = 50;
-
-if (score >= 80) {
-  console.log('Great!');
-} else if (score >= 60) {
-  console.log('good!');
-} else {
-  console.log('so so');
+function showAd() {
+  console.log('--------');
+  console.log('---Ad---');
+  console.log('--------');
 }
+
+showAd();
+console.log('taguchi');
+console.log('taguchi');
+showAd();
+console.log('taguchi');
+console.log('taguchi');
+console.log('taguchi');
+showAd();
+console.log('taguchi');
