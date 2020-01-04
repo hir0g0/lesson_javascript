@@ -1,17 +1,6 @@
 'use strict';
 
-function showAd() {
-  console.log('--------');
-  console.log('---Ad---');
-  console.log('--------');
+function f() {
+  const x = 1;
+  console.log(x);
 }
-
-showAd();
-console.log('taguchi');
-console.log('taguchi');
-showAd();
-console.log('taguchi');
-console.log('taguchi');
-console.log('taguchi');
-showAd();
-console.log('taguchi');
