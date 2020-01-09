@@ -1,14 +1,11 @@
 'use strict';
 {
-  const point = {
-    x: 100,
-    y: 180,
-  };
+  // alert('hello');
 
-  // const keys = Object.keys(point);
-  // keys.forEach((key) => {
-  //   console.log(`key: ${key} value: ${point[key]}`);
-  // });
-
-  
+  const answer = confirm('Realy delete?');
+  if (answer) {
+    console.log('delete');
+  } else {
+    console.log('canceled');
+  }
 }
