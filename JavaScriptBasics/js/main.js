@@ -1,6 +1,11 @@
 'use strict';
 {
-  const div = document.querySelector('div');
+  const a = document.querySelector('a');
+  const span = document.querySelector('span');
 
-  div.className = 'box border-pink';
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    a.classList.add('hidden');
+    span.classList.remove('hidden');
+  });
 }
